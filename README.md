@@ -4,7 +4,7 @@ This repository contains supplementary materials for the chapter of _[THE BOOK]_
 This repository includes:
 
 - **Scripts** for running the described methods
-- **Text files** that contains information of bioinforamtics softwares used and information of isolates used in the chapter
+- **Text files** that contains information of bioinformatics softwares used and information of isolates used in the chapter
 - **Example output** that not included in the print version
 
 ## Requirements & Installation
@@ -26,7 +26,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 2. Agree to the license, install location and initialisation of `conda`.
-3. Close and reopen terminal for `conada` activation.
+3. Close and reopen terminal for `conda` activation.
 4. Configure `conda` with required channels.
 ```bash
 conda config --add channels bioconda
