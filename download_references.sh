@@ -11,7 +11,9 @@ wget "https://www.ebi.ac.uk/ena/browser/api/embl/FN545816.1?download=true" -O "$
 wget "https://www.ebi.ac.uk/ena/browser/api/fasta/FN545816.1?download=true" -O "${REF_DIR}/R20291.fasta"
 
 # Download chewBBACA schema
-wget "https://www.cgmlst.org/ncs/schema/Cdifficile1760/alleles/" -O "${REF_DIR}/cdiff_cgmlst.zip"
+# wget "https://www.cgmlst.org/ncs/schema/Cdifficile1760/alleles/" -O "${REF_DIR}/cdiff_cgmlst.zip"
+# ** Use local version in the Git provided by Richard
+mv "data/cdiff_cgmlst.zip" "${REF_DIR}/cdiff_cgmlst.zip"
 unzip "${REF_DIR}/cdiff_cgmlst.zip" -d "${REF_DIR}/cdiff_cgmlst"
 
 # Prepare chewBBACA schema
