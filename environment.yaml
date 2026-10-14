@@ -1,4 +1,4 @@
-name: cdiff_env_2
+name: cdiff
 channels:
   - conda-forge
   - bioconda
@@ -8,7 +8,7 @@ dependencies:
   - roary
   - quast
   - abacas
-  - mlst
+  - mlst=2.6
   - chewbbaca
   - fastqc
   - fasttree
